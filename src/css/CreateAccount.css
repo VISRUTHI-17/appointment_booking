@@ -10,3 +10,7 @@
   flex-direction: column;
   color: #000;
 }
+
+.label{
+  font-size: 1em;
+}

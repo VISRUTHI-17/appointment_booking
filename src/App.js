@@ -4,6 +4,9 @@ import Login from "./pages/Login";
 import { BrowserRouter } from "react-router-dom";
 import { Routes, Route } from "react-router-dom";
 import CreateAccount from "./pages/CreateAccount";
+import Header from "./pages/Header";
+import Home from "./pages/Home";
+
 
 function App() {
   return (
@@ -11,6 +14,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Login />} />
         <Route path='/create' element={<CreateAccount />} />
+        <Route path="/home" element={<Main/>}/>
       </Routes>
     </BrowserRouter>
   );

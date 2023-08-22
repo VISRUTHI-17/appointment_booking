@@ -1,5 +1,75 @@
-.home-main{
-    height: 90vh;
-    width: 100%;
-   
+.home-main {
+  height: 90vh;
+  width: 100vw;
+  overflow: hidden;
+  display: flex;
+}
+
+.home-sidemenu {
+  /* background-color: aliceblue; */
+  width: 20%;
+  padding: 3%;
+  height: inherit;
+  font-size: medium;
+}
+.gender-sub p {
+  margin: 2%;
+}
+
+.border-box {
+  padding: 10%;
+  border: 1px solid black;
+  height: 80%;
+  width: 80%;
+  border-radius: 15px;
+}
+
+.home-mainside {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 30% 30% 30%;
+  width: 80%;
+  height: 90%;
+  padding: 2%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+datalist {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-between;
+  /* writing-mode: vertical-lr; */
+  width: inherit;
+  font-size: small;
+}
+
+option {
+  padding: 0;
+}
+
+.sub-head {
+  border-bottom: 1px solid black;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.gender-sec {
+  display: flex;
+  flex-direction: column;
+}
+
+.gender-sub {
+  display: flex;
+  justify-content: space-between;
+}
+
+.home-card {
+  margin: 5%;
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }

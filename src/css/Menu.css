@@ -1,0 +1,53 @@
+.menu-div{
+    height:100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: scroll;
+}
+
+
+
+.main-div{
+    height: inherit;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.logo-div{
+    height: 30%;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left-menu-div{
+    height: 50%;
+    width: 45%;
+    background-color: black;
+    display: flex;
+    margin-top: 2%;
+    border-radius: 20px;
+    padding: 20px;
+}
+.left-div{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    
+}
+.menu-button{
+    height: 10%;
+    width: 20%;
+    border-radius: 10px;
+    font-weight: bolder;
+    margin-left: 10%;
+}

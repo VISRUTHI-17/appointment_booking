@@ -6,6 +6,7 @@ import { Routes, Route } from "react-router-dom";
 import CreateAccount from "./pages/CreateAccount";
 import Header from "./pages/Header";
 import Home from "./pages/Home";
+import Menu from "./pages/Menu";
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route path='/create' element={<CreateAccount />} />
         <Route path='/home' element={<Header />}>
           <Route path='/home/' element={<Home />}/>
+        <Route path='/home/menu' element={<Menu />}/>
         </Route>
       </Routes>
     </BrowserRouter>
